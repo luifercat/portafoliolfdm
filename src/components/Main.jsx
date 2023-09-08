@@ -5,13 +5,13 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa";
-
+//src="./src/assets/images/cr02.jpg"
 const Main = () => {
   return (
     <div className="" id="main">
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1] brightness-50"
-        src="./src/assets/images/cr02.jpg"
+        src="../public/cr02.jpg"
         alt="/"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/20">
