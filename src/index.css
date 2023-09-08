@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Exo+2:wght@100;200;300;400;500;700;800&family=Fira+Code:wght@500;600&family=Fuzzy+Bubbles:wght@400;700&family=Lugrasimo&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100&family=Special+Elite&family=Urbanist:wght@200;300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth
+}
+
+.custom-neum {
+    border-radius: 50px;
+    background: #e8e8e8;
+    box-shadow:  5px 5px 9px #a0a0a0,
+                -5px -5px 9px #ffffff
+  }
+
+  .custom-neum01 {
+    border-radius: 5px;
+    background: #e8e8e8;
+    box-shadow: inset 5px 5px 12px #c5c5c5,
+                inset -5px -5px 12px #ffffff
+  }
+
+  .custom-neum02 {
+    border-radius: 10px;
+    background: #e8e8e8;
+    box-shadow:  5px 5px 9px #a0a0a0,
+                -5px -5px 9px #ffffff;
+  }
