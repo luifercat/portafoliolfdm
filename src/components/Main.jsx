@@ -12,7 +12,6 @@ const Main = () => {
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1] brightness-50"
         src="/cr02.png"
-        alt="/"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/20">
         <div className="relative  pl-200 ">
