@@ -1,4 +1,3 @@
-import { TypeAnimation } from "react-type-animation";
 import {
   FaTwitter,
   FaFacebookF,
@@ -11,7 +10,7 @@ const Main = () => {
     <div className="" id="main">
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1] brightness-50"
-        src="../public/cr02.png"
+        src="./public/cr02.png"
         alt="/"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/20">
