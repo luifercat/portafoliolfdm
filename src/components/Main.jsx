@@ -31,9 +31,10 @@ const Main = () => {
             <li>React</li>
             <li>Tailwind</li>
           </ul>
+          <p>s</p>
         </div>
 
-        <div className="absolute top-20 flex justify-between mt-96 p-3 max-w-[200px] w-full border border-stone-700    max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:left-[20%]  sm:left-[75%]     ">
+        <div className="absolute top-20 flex justify-between mt-80 p-3 max-w-[45px] w-full border border-stone-700    max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:left-[20%]  sm:left-[12%]     ">
           {/*           
           <a href="" target="_blank">
             <FaTwitter className="cursor-pointer  fill-red-700" size={20} />
