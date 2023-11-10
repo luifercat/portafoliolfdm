@@ -60,7 +60,8 @@ const Sidenav = () => {
           </a>
           <a
             onClick={handleNav}
-            href="#main"
+            href="https://www.linkedin.com/in/luisfernandodiazmendoza/"
+            target="_blank"
             className="w-[30%] flex justify-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in  duration-200"
           >
             <BsPerson className=" fill-cyan-700" size={20} />
