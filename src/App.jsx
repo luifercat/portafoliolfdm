@@ -12,11 +12,11 @@ function App() {
       <Work />
       <Projects />
       <Contact />
-      <div className="h-screen flex justify-center items-center dark:bg-neutral-900">
+      {/* <div className="h-screen flex justify-center items-center dark:bg-neutral-900">
         <button className="bg-slate-100 px-4 py-2 rounded hover:bg-red-500 dark:bg-slate-950 dark dark:text-white dark:hover:bg-blue-900">
           DARK
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
