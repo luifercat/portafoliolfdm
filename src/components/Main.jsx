@@ -4,13 +4,12 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa";
-//src="./src/assets/images/cr02.jpg"
-//src="./public/cr02.png"
+
 const Main = () => {
   return (
     <div className="" id="main">
       <img
-        className="w-full h-screen object-cover object-left scale-x-[-1] brightness-50"
+        className="w-full h-screen object-cover object-left scale-x-[-1] brightness-50 bg-contain bg-fixed bg-center"
         src="/cr02.png"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/20">
@@ -35,19 +34,20 @@ const Main = () => {
         </div>
 
         <div className="absolute top-20 flex justify-between mt-96 p-3 max-w-[200px] w-full border border-stone-700    max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:left-[20%]  sm:left-[75%]     ">
-          <a href="https://twitter.com/LUIFERCAT007" target="_blank">
+          {/*           
+          <a href="" target="_blank">
             <FaTwitter className="cursor-pointer  fill-red-700" size={20} />
           </a>
-          <a href="https://www.facebook.com/luifercat" target="_blank">
+          <a href="" target="_blank">
             <FaFacebookF className="cursor-pointer fill-red-700" size={20} />
           </a>
+          <a href="" target="_blank">
+            <FaInstagram className="cursor-pointer fill-red-700" size={20} />
+          </a> */}
           <a
-            href="https://www.instagram.com/luifercatluifercat"
+            href="https://www.linkedin.com/in/luisfernandodiazmendoza/"
             target="_blank"
           >
-            <FaInstagram className="cursor-pointer fill-red-700" size={20} />
-          </a>
-          <a href="https://www.facebook.com/luifercat" target="_blank">
             <FaLinkedinIn className="cursor-pointer fill-red-700" size={20} />
           </a>
         </div>

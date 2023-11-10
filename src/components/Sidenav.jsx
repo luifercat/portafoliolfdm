@@ -64,7 +64,7 @@ const Sidenav = () => {
             className="w-[30%] flex justify-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in  duration-200"
           >
             <BsPerson className=" fill-cyan-700" size={20} />
-            <span className="pl-4">Resume</span>
+            <span className="pl-4">Resumeee</span>
           </a>
           <a
             onClick={handleNav}
@@ -124,8 +124,11 @@ const Sidenav = () => {
             />
           </a>
           <a
-            href="#main"
+            //href="#main"
+            href="https://1drv.ms/b/s!Ajbk-aYOsmphqPZF5BVjLnK44xvjHw?e=h6UmfQ"
+            target="_blank"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer custom-neum"
+            title="C. V."
           >
             <BsPerson className=" fill-cyan-700 hover:fill-red-700" size={20} />
           </a>

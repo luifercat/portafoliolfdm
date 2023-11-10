@@ -1,3 +1,5 @@
+//src="./src/assets/images/logo01.png"
+
 const Contact = () => {
   return (
     <div
@@ -15,15 +17,10 @@ const Contact = () => {
             Contáctame <br />y hablemos, seguro puedo ayudarlo!!!
           </h1>
           <ul className="font-bold text-xl pt-14 pl-10  text-blue-800 list-disc opacity-90">
-            <li>Dirección: Carrera 3 #10-20 Edificio Colombia</li>
             <li>Movil: 311-3470120</li>
             <li>e-mail: luifercat@gmail.com</li>
           </ul>
-          <img
-            className="pl-24 h-40 "
-            src="./src/assets/images/logo01.png"
-            alt="/"
-          />
+          <img className="pl-24 h-40 " src="/logo01.png" />
           {/*} <img
             className=" flex h-screen  scale-x-[-1] border-gray-400 rounded-lg opacity-10 "
             src="./src/assets/images/gato-tejada.jpg"
@@ -43,7 +40,7 @@ const Contact = () => {
                   Nombre
                 </label>
                 <input
-                  className=" text-cyan-700 border-1 rounded-lg p-3 flex border-gray-300 custom-neum01"
+                  className=" text-cyan-700 border-1 rounded-lg p-3 flex border-gray-300 custom-neum01 outline-none"
                   type="text"
                   name="name"
                 />
@@ -53,7 +50,7 @@ const Contact = () => {
                   TELÉFONO
                 </label>
                 <input
-                  className="border-1 rounded-lg p-3 flex border-gray-300 custom-neum01"
+                  className="border-1 rounded-lg p-3 flex border-gray-300 custom-neum01 outline-none"
                   type="text"
                   name="phone"
                 />
@@ -64,7 +61,7 @@ const Contact = () => {
                 Email
               </label>
               <input
-                className="border-1 rounded-lg p-3 flex border-gray-300 custom-neum01"
+                className="border-1 rounded-lg p-3 flex border-gray-300 custom-neum01 outline-none"
                 type="email"
                 name="email"
               />
@@ -74,7 +71,7 @@ const Contact = () => {
                 ASUNTO
               </label>
               <input
-                className="border-1 rounded-lg p-3 flex border-gray-300 custom-neum01"
+                className="border-1 rounded-lg p-3 flex border-gray-300 custom-neum01 outline-none"
                 type="text"
                 name="subject"
               />
@@ -84,7 +81,7 @@ const Contact = () => {
                 MENSAJE
               </label>
               <textarea
-                className="border-1 rounded-lg p-3 flex border-gray-300 custom-neum01"
+                className="border-1 rounded-lg p-3 flex border-gray-300 custom-neum01 outline-none"
                 rows="10"
                 name="message"
               />
