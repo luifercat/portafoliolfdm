@@ -1,3 +1,6 @@
+import LanguageSwitcher from "../components/LanguageSwitcher";
+import i18n from "../i18n";
+import { I18nextProvider } from "react-i18next";
 import {
   FaTwitter,
   FaFacebookF,
@@ -31,7 +34,6 @@ const Main = () => {
             <li>React</li>
             <li>Tailwind</li>
           </ul>
-          <p>s</p>
         </div>
 
         <div className="absolute top-20 flex justify-between mt-80 p-3 max-w-[45px] w-full border border-stone-700    max-sm:flex max-sm:flex-row max-sm:justify-between max-sm:left-[20%]  sm:left-[12%]     ">

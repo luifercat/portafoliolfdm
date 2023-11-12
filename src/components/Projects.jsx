@@ -3,23 +3,19 @@ import rymImg from "../assets/rym.jpg";
 import pokedexImg from "../assets/pokedex.jpg";
 import usuariosImg from "../assets/usuarios.jpg";
 import climaImg from "../assets/clima.jpg";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+  const { t } = useTranslation("translation");
+
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-10">
       <div className="flex justify-center items-center mb-10">
         <h1 className="w-60 text-4xl font-bold text-center text-cyan-700 custom-neum">
-          PROYECTOS
+          {t("projectsTitle")}
         </h1>
       </div>
-      <p className="text-center py-8">
-        "En mi reciente ingreso al mundo de la programación estoy teniendo la
-        oportunidad de crear proyectos que van afianzando mis conocimientos en
-        lenguajes de programación como JavaScript, librerías como react,
-        Tailwind lenguaje de marcado e informático como html y Css, los
-        siguientes proyectos son algunos ejemplos de aprendizaje y los cuales
-        voy actualizando y desarrollando cada día mas. "
-      </p>
+      <p className="text-center py-8">{t("projectsDes")}</p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
           img={pokedexImg}

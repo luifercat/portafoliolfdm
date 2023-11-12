@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 //src="./src/assets/images/logo01.png"
 
 const Contact = () => {
+  const { t } = useTranslation("translation");
   return (
     <div
       id="contact"
@@ -8,13 +10,13 @@ const Contact = () => {
     >
       <div className="flex justify-center items-center mb-10">
         <h1 className="px-9 text-4xl font-bold text-center text-cyan-700 custom-neum">
-          CONTACTO
+          {t("contactTitle")}
         </h1>
       </div>
       <div className="flex flex-row flex-wrap justify-center items-stretch gap-8 rounded-lg">
         <div className=" h-screen w-96 custom-neum02 mt-12">
           <h1 className="font-bold text-5xl   text-center pt-16  text-cyan-700 opacity-90">
-            Contáctame <br />y hablemos, seguro puedo ayudarlo!!!
+            {t("contactText01")}
           </h1>
           <ul className="font-bold text-xl pt-14 pl-10  text-blue-800 list-disc opacity-90">
             <li>Movil: 311-3470120</li>
