@@ -1,3 +1,5 @@
+import WorkItem from "./WorkItem";
+import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 import i18n from "../i18n";
 import { I18nextProvider } from "react-i18next";
@@ -9,6 +11,8 @@ import {
 } from "react-icons/fa";
 
 const Main = () => {
+  const { t } = useTranslation("translation");
+
   return (
     <div className="" id="main">
       <img
@@ -26,7 +30,7 @@ const Main = () => {
             Luis Fernando Díaz M.
           </h1>
           <h3 className="absolute top-[220px] left-40 sm:text-2xl  font-extralight text-slate-200">
-            Programador FrontEnd
+            {t("mainTitle")}
           </h3>
           <ul className="absolute top-[255px] left-[182px] sm:text-xl  font-extralight text-slate-200 list-disc">
             <li>Html - CSS</li>

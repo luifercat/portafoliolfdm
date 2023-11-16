@@ -4,6 +4,9 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
+      //Main
+      mainTitle: "FullStack Programmer",
+      //Work
       workTitle: "WORK",
       workSub: "Work",
       workDes:
@@ -17,12 +20,22 @@ const resources = {
       projectsTitle: "PROJECTS",
       projectsDes:
         "In my recent entry into the world of programming, I am having the opportunity to create projects that strengthen my knowledge in programming languages such as JavaScript, libraries such as react, Tailwind, and computer markup languages such as HTML and CSS. The following projects are some examples of learning and which I am updating and developing more and more every day.",
+      //Contact
       contactTitle: "CONTACT",
       contactText01: "Contact me and let's talk, I'm sure I can help you.!!",
+      contactMobile: "Mobile",
+      contactName: "Name",
+      contactPhone: "Phone",
+      contactSubject: "Subject",
+      contactMess: "Message",
+      contactSend: "Send Message",
     },
   },
   es: {
     translation: {
+      //Main
+      mainTitle: "Programador FullStack",
+      //Work
       workTitle: "TRABAJO",
       workSub: "Trabajo",
       workDes:
@@ -38,6 +51,12 @@ const resources = {
         "En mi reciente ingreso al mundo de la programación estoy teniendo la oportunidad de crear proyectos que van afianzando mis conocimientos en lenguajes de programación como JavaScript, librerías como react, Tailwind lenguaje de marcado e informático como html y Css, los siguientes proyectos son algunos ejemplos de aprendizaje y los cuales voy actualizando y desarrollando cada día mas.",
       contactTitle: "CONTACTO",
       contactText01: "Contáctame y hablemos, seguro puedo ayudarlo!!!",
+      contactMobile: "Movil",
+      contactName: "Nombre",
+      contactPhone: "Teléfono",
+      contactSubject: "Asunto",
+      contactMess: "Mensaje",
+      contactSend: "Enviar Mensaje",
     },
   },
 };

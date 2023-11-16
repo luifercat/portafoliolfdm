@@ -19,7 +19,7 @@ const Contact = () => {
             {t("contactText01")}
           </h1>
           <ul className="font-bold text-xl pt-14 pl-10  text-blue-800 list-disc opacity-90">
-            <li>Movil: 311-3470120</li>
+            <li>{t("contactMobile")}: 311-3470120</li>
             <li>e-mail: luifercat@gmail.com</li>
           </ul>
           <img className="pl-24 h-40 " src="/logo01.png" />
@@ -39,7 +39,7 @@ const Contact = () => {
             <div className="grid md:grid-cols-2 gap-4 w-full p-y2">
               <div className="flex flex-col">
                 <label className="uppercase text-sm py-2 text-cyan-700">
-                  Nombre
+                  {t("contactName")}
                 </label>
                 <input
                   className=" text-cyan-700 border-1 rounded-lg p-3 flex border-gray-300 custom-neum01 outline-none"
@@ -49,7 +49,7 @@ const Contact = () => {
               </div>
               <div className="flex flex-col">
                 <label className="uppercase text-sm py-2 text-cyan-700">
-                  TELÉFONO
+                  {t("contactPhone")}
                 </label>
                 <input
                   className="border-1 rounded-lg p-3 flex border-gray-300 custom-neum01 outline-none"
@@ -70,7 +70,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col py-2">
               <label className="uppercase text-sm py-2 text-cyan-700">
-                ASUNTO
+                {t("contactSubject")}
               </label>
               <input
                 className="border-1 rounded-lg p-3 flex border-gray-300 custom-neum01 outline-none"
@@ -80,7 +80,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col py-2">
               <label className="uppercase text-sm py-2 text-cyan-700">
-                MENSAJE
+                {t("contactMess")}
               </label>
               <textarea
                 className="border-1 rounded-lg p-3 flex border-gray-300 custom-neum01 outline-none"
@@ -90,7 +90,7 @@ const Contact = () => {
             </div>
             <div className="flex justify-center items-center mb-10">
               <button className="font-bold hover:text-red-600 text-cyan-700 mt-4 w-auto p-4 custom-neum">
-                Enviar Mensaje
+                {t("contactSend")}
               </button>
             </div>
           </form>
