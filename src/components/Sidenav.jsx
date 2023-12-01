@@ -126,7 +126,7 @@ const Sidenav = () => {
           </a>
           <a
             //href="#main"
-            href="https://1drv.ms/b/s!Ajbk-aYOsmphqPZF5BVjLnK44xvjHw?e=h6UmfQ"
+            href="https://1drv.ms/b/s!Ajbk-aYOsmphqPoYCtEhwoDLpgrIbA?e=AeE0iE"
             target="_blank"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer custom-neum"
             title="C. V."
